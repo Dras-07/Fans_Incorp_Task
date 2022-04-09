@@ -1,0 +1,32 @@
+GET http://localhost:3000/v1/tasks
+
+
+###
+
+GET http://localhost:3000/v1/tasks/62512021b2e0d8b465f1c2d2
+
+
+
+###
+POST http://localhost:3000/v1/tasks
+Content-Type:application/json
+
+{
+   "title": "dasdsd exercise",
+   "completed": false
+}
+
+
+
+###
+DELETE http://localhost:3000/v1/tasks/625092a9af5d8acd9675a6f6
+
+
+###
+PUT http://localhost:3000/v1/tasks/62512021b2e0d8b465f1c2d2
+Content-Type:application/json
+
+{
+   "title": "hassdsadpy125hb3",
+   "completed": true
+}
